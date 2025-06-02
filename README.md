@@ -75,13 +75,13 @@ Methodology
 
 Tools and Techniques:
 
-cd Desktop: command to change directory to Desktop
-Ls-la command: to look at the directories on the Desktop directory
-cd suspicious-files: command to change the directory to the suspicious files directory
-Used the ls-la command: to look at what directories were in the suspicious files directory
-Used the zip file command: zip -r suspicious-files.zip ~/Desktop/suspicious-files$ to compress all the hashes into one file so VirusTotal can red all the files at once
-VirusTotal: imported the zip fileinto this to get the MD5 hash of the file
-Details tab in VirusTotal: gave me the MD5 hash I was looking for and said it was a trojan attack
+- cd Desktop: command to change directory to Desktop
+- Ls-la command: to look at the directories on the Desktop directory
+- cd suspicious-files: command to change the directory to the suspicious files directory
+- Used the ls-la command: to look at what directories were in the suspicious files directory
+- Used the zip file command: zip -r suspicious-files.zip ~/Desktop/suspicious-files$ to compress all the hashes into one file so VirusTotal can red all the files at once
+- VirusTotal: imported the zip fileinto this to get the MD5 hash of the file
+- Details tab in VirusTotal: gave me the MD5 hash I was looking for and said it was a trojan attack
 
 Investigation Process:
 1. I first started by changing the directory to Desktop
